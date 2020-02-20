@@ -1,0 +1,20 @@
+h1{
+    font-size: 50px;
+}
+p{
+    
+}
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+.nh{
+    color: rgb(39, 159, 7);
+}
+.hf{
+    width: 40%;
+    float: right;
+     
+}
+.hf img{
+    width: 100%;
+}
