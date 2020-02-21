@@ -1,12 +1,12 @@
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
-p{
-    width: 40%;
-}
+
 body{
-    font-family: 'Roboto', sans-serif; 
-   margin: 0;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Sriracha' ;
+    font-family: 'PT Serif', ;
+    margin: 0;
 }
 .nh{
     color: rgb(39, 159, 7);
@@ -22,8 +22,11 @@ body{
     width: 100%;
 }
 .top{
+    
     background-image: url("img/top-banner.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat ;
+    
+   
 }
 .btt{
     text-decoration: none;
@@ -33,4 +36,75 @@ body{
     border-color: darkgrey;
     color: cornsilk;
     font-weight: bold;
+}
+section{
+    height: 450px;
+    padding-bottom: 100px;
+}
+.nh{
+    color: rgb(39, 159, 7);
+}
+.nd{
+    color: khaki;
+}
+.hd{
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.hd img{
+    width: 100%;
+}
+.bottom{
+    background-image: url("img/dream-bg.png");
+    background-position: right;
+   
+    background-repeat: no-repeat ;
+}
+.btt2{
+    text-decoration: none;
+    background-image: linear-gradient(red,orange);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: darkgrey;
+    color: cornsilk;
+    font-weight: bold;
+}
+.hb{
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.gr{
+    color: rgb(243, 112, 36);
+}
+.df{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    text-overflow: initial;
+    height: 80%;
+    background-color: #fff;
+}
+.last{
+    background-image: url("img/exp-bg.png");
+   
+    background-repeat: no-repeat ;
+}
+#kkb{
+    border-left: 5px solid rgb(65, 61, 194);
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+
+}
+#llk{
+    border-left: 5px solid rgb(65, 61, 194);
+    border-image: linear-gradient(180 ,red, rgb(0, 187, 255));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
 }
