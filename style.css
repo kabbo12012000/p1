@@ -2,19 +2,35 @@ h1{
     font-size: 50px;
 }
 p{
-    
+    width: 40%;
 }
 body{
     font-family: 'Roboto', sans-serif; 
+   margin: 0;
 }
 .nh{
     color: rgb(39, 159, 7);
 }
 .hf{
     width: 40%;
-    float: right;
-     
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
+
 .hf img{
     width: 100%;
+}
+.top{
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+.btt{
+    text-decoration: none;
+    background-image: linear-gradient(cyan, blue);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: darkgrey;
+    color: cornsilk;
+    font-weight: bold;
 }
